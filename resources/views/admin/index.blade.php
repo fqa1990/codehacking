@@ -1,1 +1,1 @@
-<h1>admin index</h1>
+@extends('layouts.admin')
