@@ -6,7 +6,7 @@
  "settings": {
   "m_runAs": 0,
   "m_phpExe": "C:\\wamp\\bin\\php\\php5.6.18\\php.EXE",
-  "m_indexFile": "C:\\wamp\\www\\codehacking\\resources\\views\\admin\\users\\create.blade.php",
+  "m_indexFile": "C:\\wamp\\www\\codehacking\\resources\\views\\layouts\\admin.blade.php",
   "m_args": "",
   "m_workingDirectory": "",
   "m_projectURL": "",
