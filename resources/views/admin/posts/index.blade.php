@@ -28,7 +28,7 @@
             <td>{{$post->id}}</td>
             <td><img src="{{ URL::to($post->photo ? $post->photo->file : 'http://placehold.it/400x400') }}" height="50" alt="" /></td>
             <td>{{$post->user->name}}</td>
-            <td>{{$post->category_id}}</td>
+            <td>{{$post->category ? $post->category->name : 'Uncategorized'}}</td>
             <td><a href="{!! url('admin/posts/'.$post->id.'/edit') !!}">{{$post->title}}</a></td>
             <td>{{$post->body}}</td>
             <td>{{$post->created_at->diffForHumans()}}</td>
