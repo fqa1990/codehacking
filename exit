@@ -1,0 +1,41 @@
+[33mcommit fbe9b60f3b85c7f8ff375f99e9fc20531a815a07[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: fahad <fahad@awan90@yahoo.com>
+Date:   Mon Feb 12 17:17:57 2018 +0500
+
+    able to create post with dynamic categories
+
+[33mcommit d6a451bf8e450d6d1e8119cab6f184226d7485ea[m
+Author: fahad <fahad@awan90@yahoo.com>
+Date:   Mon Feb 12 15:59:03 2018 +0500
+
+    able to create post with static category
+
+[33mcommit d668b19b06b3c1fe9dfd7c974a15caed2659a585[m
+Author: fahad <fahad@awan90@yahoo.com>
+Date:   Sun Feb 11 22:31:36 2018 +0500
+
+    users section working 100 percent - except security
+
+[33mcommit 15dd5f4c67a71876ebcb1e98d5097589a516f605[m
+Author: fahad <fahad@awan90@yahoo.com>
+Date:   Sat Feb 10 19:11:51 2018 +0500
+
+    users with uploadin feature working
+
+[33mcommit 64802be3443f8573cc642b4852358812229ee34f[m
+Author: fahad <fahad@awan90@yahoo.com>
+Date:   Sat Feb 10 15:08:43 2018 +0500
+
+    users page working without photo
+
+[33mcommit 2f65554074777c22be87312b7d85e8487ce3ad57[m
+Author: fahad <fahad@awan90@yahoo.com>
+Date:   Thu Feb 8 15:18:24 2018 +0500
+
+    npm installed and admin master page added
+
+[33mcommit 23743d789e900498856ac3883d5e2f67f83a67e5[m
+Author: fahad <fahad@awan90@yahoo.com>
+Date:   Fri Feb 2 18:16:59 2018 +0500
+
+    my first commit - admin views created

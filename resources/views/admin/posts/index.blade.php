@@ -2,6 +2,11 @@
 
 @section('content')
 
+@if(Session::has('deleted_post'))
+	
+	<p class="bg-danger">{{session('deleted_post')}}</p>
+	
+@endif
 
 	<h1>Posts</h1>
 	
@@ -30,7 +35,7 @@
             <td>{{$post->user->name}}</td>
             <td>{{$post->category ? $post->category->name : 'Uncategorized'}}</td>
             <td><a href="{!! url('admin/posts/'.$post->id.'/edit') !!}">{{$post->title}}</a></td>
-            <td>{{$post->body}}</td>
+            <td>{{str_limit($post->body, 7)}}</td>
             <td>{{$post->created_at->diffForHumans()}}</td>
             <td>{{$post->updated_at->diffForHumans()}}</td>
           </tr>
